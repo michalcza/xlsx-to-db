@@ -1,7 +1,7 @@
 import csv
 import os
 
-folder_path = r'C:\Users\Michal\Documents\loading'
+folder_path = r'C:\Users\Michal\Documents\GitHub\xlsx-to-db'
 
 for file_path in os.listdir(folder_path):
     if file_path.endswith('.csv'):
